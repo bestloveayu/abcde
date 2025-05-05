@@ -40,19 +40,19 @@
         </script><!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-<base href="/">
+<base href="/abcde/"> <!-- 設置基底路徑為 /abcde/，適用於 GitHub Pages -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Micro Drunk</title>
   <link rel="stylesheet" href="./styles.css">
   <script src="./teachablemachine-image.min.js"></script>
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://cdn.jsdelivr.net 'unsafe-eval';">	
 </head>
 <body>
-    <div id="app"></div>
+  <div id="container">
     <canvas id="particle-canvas"></canvas>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.21.0/dist/tf.min.js"></script>
     <script src="./teachablemachine-image.min.js"></script>
+</div>
     <script src="./script.js"></script>
 </body>
 </html>
